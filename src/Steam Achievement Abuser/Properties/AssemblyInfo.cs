@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Steam Achievement Abuser")]
 [assembly: AssemblyDescription("Steam Achievement Abuser")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("sa68ru.xyz")]
+[assembly: AssemblyCompany("Louis_45")]
 [assembly: AssemblyProduct("Steam Achievement Abuser")]
-[assembly: AssemblyCopyright("Copyright © sa68ru  2018")]
+[assembly: AssemblyCopyright("Copyright © Louis_45 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -36,7 +36,7 @@ namespace Steam_Achievement_Abuser
         static void Main()
         {
             Console.Title = "Steam Achievement Abuser";
-            Console.WriteLine("Welcome to Steam Achievement Abuser by sa68ru.xyz");
+            Console.WriteLine("Welcome to Steam Achievement Abuser by Louis_45");
             Console.WriteLine("Based on: https://github.com/gibbed/SteamAchievementManager");
             Console.WriteLine("Init...");
             try
