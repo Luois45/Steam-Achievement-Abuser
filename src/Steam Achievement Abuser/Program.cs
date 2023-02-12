@@ -10,6 +10,24 @@ using System.Xml.XPath;
 
 namespace Steam_Achievement_Abuser
 {
+    static class ExtensionsClass
+    {
+        private static Random rng = new Random();
+
+        public static void Shuffle<GameInfo>(this List<GameInfo> list)
+        {
+            int n = list.Count;
+            while (n > 1)
+            {
+                n--;
+                int k = rng.Next(n + 1);
+                GameInfo value = list[k];
+                list[k] = list[n];
+                list[n] = value;
+            }
+        }
+    }
+
     class Program
     {
         private static Client _SteamClient = null;
@@ -32,6 +50,7 @@ namespace Steam_Achievement_Abuser
                 throw;
             }
             AddGames();
+            _Games.Shuffle();
             Console.WriteLine($"Found {_Games.Count()} games...");
             Console.WriteLine("");
             Console.WriteLine("Press key for start abuse...");
