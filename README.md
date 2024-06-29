@@ -1,6 +1,6 @@
 # Steam Achievement Abuser
 
-- Based on: <https://github.com/gibbed/SteamAchievementManager>
+- Based on: <https://github.com/sa68ru/Steam-Achievement-Abuser>
 - Thats based on: <https://github.com/gibbed/SteamAchievementManager>
 
 # What is it?
